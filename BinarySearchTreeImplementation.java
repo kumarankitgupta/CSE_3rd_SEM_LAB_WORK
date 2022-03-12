@@ -40,7 +40,7 @@ public class BinarySearchTreeImplementation {
         ob.insert(root, 4);
         ob.insert(root, 2);
         ob.insert(root, 1);
-        System.out.print("The elements are :- ");
-        ob.inorder(root);
+        System.out.print("The elements are :- ");  // Inorder traversal of BST
+        ob.inorder(root); 
     }
 }
